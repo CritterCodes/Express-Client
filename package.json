@@ -1,0 +1,19 @@
+{
+  "name": "@crittercodes/express-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to create Express projects",
+  "main": "index.js",
+  "bin": {
+    "exp": "./bin/exp.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "crittercodes",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  }
+}
